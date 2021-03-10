@@ -1,5 +1,17 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Vazir.woff2') format('woff2'),
+         url('../fonts/Vazir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'Vazir' !important;
+}
 .text-right{
-    text-align: right;
+    text-align: right !important;
 }
 .rtl{
     display: flex !important;
@@ -24,4 +36,13 @@
 .content-wrapper {
     left: -247px !important;
     position: absolute !important;
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown {
+    width: 300px;
+}
+.sidebar .nav.sub-menu .nav-item {
+    margin-right: -48px;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link {
+    position: inherit;
 }
