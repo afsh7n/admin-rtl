@@ -7,7 +7,7 @@
     font-weight: normal;
     font-style: normal;
 }
-*{
+*:not(i){
     font-family: 'Vazir' !important;
 }
 .text-right{
@@ -48,4 +48,7 @@
 }
 #role{
     color: rgba(235, 16, 16, 0.4);
+}
+div > i {
+    padding: 0 5px;
 }
