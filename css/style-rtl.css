@@ -1,0 +1,27 @@
+.text-right{
+    text-align: right;
+}
+.rtl{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+.logo_h{
+    padding-left: 20px;
+}
+.dropdown-menu{
+    left: -75px !important;
+}
+#contact{
+    padding-right: 30px;
+}
+.rtl-text{
+    display: flex !important;
+}
+.drtl{
+    direction: rtl;
+}
+
+.content-wrapper {
+    left: -247px !important;
+    position: absolute !important;
+}
